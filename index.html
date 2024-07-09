@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM</title>
+    <link rel="stylesheet" href="PaymentFormUsingCSS.css">
+</head>
+<body>
+    <div class="support">
+    <form action=""></form>
+    <h1 class="main_heading">PAYMENT FORM</h1>
+    
+    <h2>CONTACT INFORMATION</h2>
+
+    <p>Name: *<input type="text" name="name" id="name" required placeholder="Subh Sahu"></p>
+<fieldset>
+    <legend>Gender *</legend>
+    <p>
+        Male <input type="radio" name="male" id="male">
+        Female <input type="radio" name="female" id="female">
+    </p>
+</fieldset>
+
+<p>Address: *<textarea name="address" id="address" cols="50" rows="5" placeholder="Enter your Address"></textarea></p>
+
+<p>Email: *<input type="email" name="email" id="email" required placeholder="Subh@gmail.com"></p>
+
+<p>Pincode: * <input type="number" name="Pincode" id="Pincode" required placeholder="Enter your Pincode"></p>
+<br>
+
+<h2>PAYMENT INFORMATION</h2>
+<p>Accepted Cards</p>
+
+<img src="../debit card visa card sign.jpg" alt="Image not Found" height="100px" width="200px">
+
+<p>Card Type: 
+    <select name="card_type" id="card_type">
+    <option value="">--Select a Card Type--</option>
+    <option value="visa">VISA</option>
+    <option value="debit">DEBIT</option>
+    <option value="credit">CREDIT</option>
+</select>
+</p>
+
+<p>Card Number: *<input type="number" name="card_number" id="card_number" placeholder="6969-6969-6969-6969"></p>
+
+<p>Expiry Date: *<input type="date" name="exp_date" id="exp_date"></p>
+
+<p>CVV: *<input type="password" name="cvv" id="cvv"></p>
+
+<input  type="submit" value="Pay Now" class="Pay">
+
+</div>
+</body>
+</html>
